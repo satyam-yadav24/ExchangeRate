@@ -1,0 +1,68 @@
+:root {
+	--primary-color: #2a9d8f;
+	--secondary-color: #e76f51;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	height: 100vh;
+}
+
+.container {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	color: var(--primary-color);
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+		'Helvetica Neue', sans-serif;
+}
+
+#currency-image {
+	max-width: 30%;
+}
+
+.currency {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#swapContainer {
+	width: 300px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.currencyList {
+	--moz-appearance: none;
+	--webkit-appearance: none;
+	padding: 10px;
+	border: 0;
+}
+span {
+	display: block;
+}
+.currency input {
+	text-align: right;
+	border: none;
+}
+
+.currency input:focus,
+.currencyList:focus .btn:focus {
+	outline: none;
+}
+
+.btn {
+	padding: 10px;
+	font-size: 20px;
+	color: white;
+	border: none;
+	background: var(--secondary-color);
+}
