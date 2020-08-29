@@ -62,7 +62,7 @@ span {
 .btn {
 	padding: 10px;
 	font-size: 20px;
-	color: white;
+	color: black;
 	border: none;
 	background: var(--secondary-color);
 }
